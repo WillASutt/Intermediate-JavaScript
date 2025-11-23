@@ -29,7 +29,7 @@ function showFirstAndLast(arr) {
     arr.forEach(function(str) {
         firstAndLast.push(str[0] + str[str.length - 1]);
     });
-    console.log(firstAndLast);
+    return firstAndLast;
 }
 showFirstAndLast(["hi", "goodbye", "smile"])
 
@@ -58,7 +58,7 @@ function vowelCount(str) {
             }
         }
     });
-    console.log(vowelObj);
+    return vowelObj;
 }
 vowelCount("Elliie")
 
